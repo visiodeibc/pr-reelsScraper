@@ -1,0 +1,4 @@
+instaloader>=4.14.2
+python-dotenv>=1.0
+rich>=13
+pydantic>=2

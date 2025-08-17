@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: ig_reel_fetcher
+Version: 0.1.0
+Summary: Download Instagram Reels by URL using Instaloader (no Meta API).
+Author: ig_reel_fetcher
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: instaloader>=4.14.2
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: rich>=13
+Requires-Dist: pydantic>=2
+
 # ig_reel_fetcher
 
 Download Instagram Reels (or Posts) by URL using the Instaloader Python module — no Meta API or tokens required.

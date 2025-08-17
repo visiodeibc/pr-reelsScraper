@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ig_reel_fetcher"
+version = "0.1.0"
+description = "Download Instagram Reels by URL using Instaloader (no Meta API)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "ig_reel_fetcher" }
+]
+dependencies = [
+  "instaloader>=4.14.2",
+  "python-dotenv>=1.0",
+  "rich>=13",
+  "pydantic>=2",
+  "openai>=1.40.0",
+  "httpx>=0.27",
+  "rapidfuzz>=3",
+  "ffmpeg-python>=0.2",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
